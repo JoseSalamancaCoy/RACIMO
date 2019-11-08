@@ -1,7 +1,0 @@
-# Name = RACIMO2
-# Version = Version 2.0
-# Location = HOME_PETER
-# Sensors = KIT
-# Power = RED
-# Time Zone = GTM-5
-#UTCtime Nubosidad Presion Temperatura Humedad Irradiancia Iluminancia  Ruido Lluvia 
