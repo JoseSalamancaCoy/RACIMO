@@ -18,7 +18,7 @@
 #include <Wire.h>
 #include <math.h>
 #include <SoftwareSerial.h>
-#include "MPL115A2.h"
+//#include "MPL115A2.h"
 #include "Iluminancia.h"
 #include "SIR.h"
 #include "Ruido.h"
@@ -46,7 +46,7 @@ float Hum = -666;
 //float GPSTime = -666;
 int time = 700;
 
-MPL115A2 M = MPL115A2();
+//MPL115A2 M = MPL115A2();
 SIR S = SIR();
 Iluminancia IL = Iluminancia();
 Ruido R = Ruido();
@@ -59,7 +59,7 @@ Humedad H = Humedad();
 void setup(){
   Serial.begin(9600);               // Configuración del puerto serial
   delay(100); 
-  M.mpl115a2_init();                // Inicio del sensor de temperatura y presion
+//  M.mpl115a2_init();                // Inicio del sensor de temperatura y presion
   S.SIR_init();
   IL.Iluminancia_init();
   R.Ruido_init();
@@ -85,8 +85,8 @@ void loop(){
   }
   
   //Lluvia = RG.Medir_Lluvia();
-  P = M.mpl115a2_Medir_Presion();
-  T = M.mpl115a2_Medir_Temperatura();
+ // P = M.mpl115a2_Medir_Presion();
+ // T = M.mpl115a2_Medir_Temperatura();
   IR = S.Medir_Irradiancia();
   Ilu = IL.Medir_Iluminancia();
   Ru = R.Medir_Ruido();
@@ -99,9 +99,9 @@ void loop(){
   
   //Serial.print(GPSTime);
   //Serial.print("\t");
-  Serial.print(P);  // + 96.13 Ajuste de Calibracio n
+//  Serial.print(P);  // + 96.13 Ajuste de Calibracio n
   Serial.print("\t");
-  Serial.print(T);   // + 2.04 Ajuste de Calibracion
+//  Serial.print(T);   // + 2.04 Ajuste de Calibracion
   Serial.print("\t");
   Serial.print(Hum);
   Serial.print("\t");
