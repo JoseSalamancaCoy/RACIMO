@@ -1,0 +1,35 @@
+2019-12-20 19:49:59,420:ERROR:STDERR:Traceback (most recent call last):
+2019-12-20 19:49:59,421:ERROR:STDERR:  File "WeatherStation_2.py", line 108, in <module>
+2019-12-20 19:49:59,422:ERROR:STDERR:main()
+2019-12-20 19:49:59,422:ERROR:STDERR:  File "WeatherStation_2.py", line 82, in main
+2019-12-20 19:49:59,423:ERROR:STDERR:Keys = Data.keys()
+2019-12-20 19:49:59,423:ERROR:STDERR:NameError
+2019-12-20 19:49:59,424:ERROR:STDERR::
+2019-12-20 19:49:59,424:ERROR:STDERR:global name 'Data' is not defined
+2019-12-20 19:50:38,453:ERROR:STDERR:Traceback (most recent call last):
+2019-12-20 19:50:38,454:ERROR:STDERR:  File "WeatherStation_2.py", line 108, in <module>
+2019-12-20 19:50:38,454:ERROR:STDERR:main()
+2019-12-20 19:50:38,455:ERROR:STDERR:  File "WeatherStation_2.py", line 82, in main
+2019-12-20 19:50:38,456:ERROR:STDERR:Keys = Data.keys()
+2019-12-20 19:50:38,456:ERROR:STDERR:NameError
+2019-12-20 19:50:38,457:ERROR:STDERR::
+2019-12-20 19:50:38,457:ERROR:STDERR:global name 'Data' is not defined
+2019-12-20 19:51:31,170:ERROR:STDERR:Traceback (most recent call last):
+2019-12-20 19:51:31,171:ERROR:STDERR:  File "WeatherStation_2.py", line 111, in <module>
+2019-12-20 19:51:31,172:ERROR:STDERR:main()
+2019-12-20 19:51:31,172:ERROR:STDERR:  File "WeatherStation_2.py", line 81, in main
+2019-12-20 19:51:31,173:ERROR:STDERR:Data = Obtener_structurarData(arduinoPort)
+2019-12-20 19:51:31,173:ERROR:STDERR:NameError
+2019-12-20 19:51:31,174:ERROR:STDERR::
+2019-12-20 19:51:31,174:ERROR:STDERR:global name 'arduinoPort' is not defined
+2019-12-20 19:59:45,072:ERROR:STDERR:Traceback (most recent call last):
+2019-12-20 19:59:45,073:ERROR:STDERR:  File "WeatherStation_2.py", line 114, in <module>
+2019-12-20 19:59:45,078:ERROR:STDERR:main()
+2019-12-20 19:59:45,079:ERROR:STDERR:  File "WeatherStation_2.py", line 103, in main
+2019-12-20 19:59:45,080:ERROR:STDERR:time.sleep(10)
+2019-12-20 19:59:45,081:ERROR:STDERR:KeyboardInterrupt
+2019-12-20 19:59:52,413:ERROR:STDERR:Exception
+2019-12-20 19:59:52,414:ERROR:STDERR:KeyboardInterrupt
+2019-12-20 19:59:52,415:ERROR:STDERR: in
+2019-12-20 19:59:52,415:ERROR:STDERR:<module 'threading' from '/usr/lib/python2.7/threading.pyc'>
+2019-12-20 19:59:52,416:ERROR:STDERR: ignored
